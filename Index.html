@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalize sua Pulseira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personalize sua Pulseira</h1>
+        <p>Escolha as cores e acessórios para criar sua pulseira ideal!</p>
+    </header>
+
+    <main>
+        <section id="visualizacao-pulseira">
+            <h2>Pré-visualização da Pulseira</h2>
+            <div id="pulseira"></div>
+        </section>
+
+        <section id="opcoes-personalizacao">
+            <h2>Escolha Cores e Acessórios</h2>
+
+            <div class="opcao">
+                <label for="cor">Cor:</label>
+                <input type="color" id="cor" name="cor" value="#FF0000">
+            </div>
+
+            <div class="opcao">
+                <label for="acessorios">Acessórios:</label>
+                <select id="acessorios" name="acessorios">
+                    <option value="nenhum">Nenhum</option>
+                    <option value="pingente">Pingente</option>
+                    <option value="perola">Pérola</option>
+                    <option value="contas">Contas</option>
+                </select>
+            </div>
+
+            <button onclick="atualizarPulseira()">Atualizar Pulseira</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
