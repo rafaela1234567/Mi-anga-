@@ -17,7 +17,7 @@ main {
     gap: 20px;
 }
 
-#visualizacao-pulseira {
+.visualizacao-pulseira {
     border: 2px solid #333;
     padding: 10px;
     width: 300px;
@@ -27,14 +27,14 @@ main {
     justify-content: center;
 }
 
-#pulseira {
+.pulseira {
     width: 200px;
     height: 20px;
     background-color: #FF0000;
     border-radius: 10px;
 }
 
-#opcoes-personalizacao {
+.opcoes-personalizacao {
     display: flex;
     flex-direction: column;
     gap: 10px;
